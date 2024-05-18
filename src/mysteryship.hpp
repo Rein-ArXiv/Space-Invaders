@@ -1,7 +1,7 @@
 #pragma once
 #include <raylib.h>
 
-class MysteryShip {
+class MysteryShip{
     public:
         MysteryShip();
         ~MysteryShip();
@@ -10,6 +10,7 @@ class MysteryShip {
         void Spawn();
         Rectangle getRect();
         bool alive;
+
     private:
         Vector2 position;
         Texture2D image;

@@ -15,7 +15,7 @@
             ],
             "compilerPath": "C:/raylib/w64devkit/bin/gcc.exe",
             "cStandard": "c99",
-            "cppStandard": "c++14",
+            "cppStandard": "c++23",
             "intelliSenseMode": "gcc-x64",
             "configurationProvider": "ms-vscode.makefile-tools"
         },
@@ -37,7 +37,7 @@
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c11",
-            "cppStandard": "c++14",
+            "cppStandard": "c++23",
             "intelliSenseMode": "clang-x64"
         },
         {
@@ -54,7 +54,7 @@
                 "PLATFORM_DESKTOP"
             ],
             "cStandard": "c11",
-            "cppStandard": "c++14",
+            "cppStandard": "c++23",
             "intelliSenseMode": "gcc-x64"
         }
     ],

@@ -4,7 +4,7 @@
 #include "alien.hpp"
 #include "mysteryship.hpp"
 
-class Game {
+class Game{
     public:
         Game();
         ~Game();
@@ -21,7 +21,7 @@ class Game {
         std::vector<Obstacle> CreateObstacles();
         std::vector<Alien> CreateAliens();
         void MoveAliens();
-        void MoveDownAliens(int distance); 
+        void MoveDownAliens(int distance);
         void AlienShootLaser();
         void CheckForCollisions();
         void GameOver();
@@ -35,7 +35,7 @@ class Game {
         std::vector<Alien> aliens;
         int aliensDirection;
         std::vector<Laser> alienLasers;
-        constexpr static float alienLaserShootInterval = 0.35;
+        constexpr static float alienLaserShootInterval = 0.25;
         float timeLastAlienFired;
         MysteryShip mysteryship;
         float mysteryShipSpawnInterval;
