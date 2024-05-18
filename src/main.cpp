@@ -4,7 +4,7 @@
 
 std::string FormatWithLeadingZeros(int number, int width){
     std::string numberText = std::to_string(number);
-    int leadingZeros = 5 - numberText.length();
+    int leadingZeros = 6 - numberText.length();
     return numberText = std::string(leadingZeros, '0') + numberText;
 }
 
